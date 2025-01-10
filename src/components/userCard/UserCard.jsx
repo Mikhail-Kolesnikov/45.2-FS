@@ -11,7 +11,7 @@ function UserCard(name, age) {
       <p>Name:{name}</p>
       <p>Age:{age}</p>
       <div className={styles.button_container}>
-      <MyButton func={handleClick}text={`Knockout ${name}`}/>
+      <MyButton func={handleClick} text={`Knockout ${name}`}/>
       </div>
     </div>
   )

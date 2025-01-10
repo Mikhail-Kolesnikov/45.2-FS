@@ -1,6 +1,6 @@
 .button {
     padding: 10px 20px;
-    border: none;
+    border:solid;
     border-radius: 4px;
     background-color: blue;
     color: white;
@@ -15,5 +15,5 @@
   }
   
   .button:active {
-    background-color: blue;
+    background-color: navy;
   }

@@ -1,4 +1,8 @@
-import styles from './MyButton.css'
-export default function MyButton(func, text){
-    return <button className={styles.button} onClick={func}>{text}</button>
+import "./myButton.css";
+export default function MyButton({ func, text, type ="button" }) {
+  return (
+    <button type={type} className="button" onClick={func}>
+      {text}
+    </button>
+  );
 }

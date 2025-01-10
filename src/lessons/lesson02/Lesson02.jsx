@@ -35,9 +35,9 @@ function Lesson02() {
         авторизирован
       </p>
       <p>Пример переиспользования компонентов</p>
+      {/* <MyButton />
       <MyButton />
-      <MyButton />
-      <MyButton />
+      <MyButton /> */}
     </div>
   );
 }
