@@ -11,7 +11,9 @@ function Lesson05() {
           <p>{hero.name}</p>
           <p>{hero.isDark ? 'Villan 🧌' : 'Hero🦸'}</p>
           <p>{hero.age} years old</p>
+          <p>{hero.weapons}</p>
           <img src={hero.image} alt="" />
+
         </div>
       ))}
     </div>
