@@ -8,11 +8,11 @@ function Lesson05() {
       <h2>React map() components </h2>
       {fellowship.map((hero, index) => (
         <div className="heroCard" key={index}>
-          <p>{hero.name}</p>
-          <p>{hero.isDark ? 'Villan 🧌' : 'Hero🦸'}</p>
-          <p>{hero.age} years old</p>
-          <p>{hero.weapons.join(', ')}</p>
-          <img src={hero.image} alt="" />
+          <p className="heroName">{hero.name}</p>
+          <p className="heroType">{hero.isDark ? 'Villan 🧌' : 'Hero🦸'}</p>
+          <p className="heroAge">{hero.age} years old</p>
+          <p className="heroWeapons">{hero.weapons.join(', ')}</p>
+          <img className="heroImage" src={hero.image} alt="" />
 
         </div>
       ))}
